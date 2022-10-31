@@ -1,0 +1,55 @@
+/* Write your CSS code in this file */
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background-color: #9AD0EC;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 595px;  
+}
+
+h1, h2{
+    color: #1572A1;
+    text-align: center;
+}
+
+input{
+    height: 25px;
+    color: #1572A1;
+}
+
+::placeholder{
+    color: #1572A1;
+}
+
+button{
+    background-color: #EFDAD7;
+    color: #1572A1;
+    border-radius: 50%;
+    width: 100px;
+    height: 50px;
+}
+
+p{
+    text-align: center;
+}
+
+div{
+    background-color: rgba(192, 192, 192, 0.724);
+    margin: 25px;
+    padding: 20px 200px;
+    box-shadow: 12px 12px 2px 1px #1572a1cc;
+}
+
+li{
+    text-align: center;
+    list-style: none;
+    list-style-position: inside;
+    margin-bottom: 20px;
+    font-size: larger;
+    font-weight: 900;
+}
